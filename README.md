@@ -23,4 +23,19 @@ $ sudo bash ./raspberry-pi-cluster-install/general/install.sh
 
 ## Slave Installation
 
-Once your master has been installed ssh back into the master node, populate your ip list for all of your 
+Once your master has been installed ssh back into the master node, populate your ip list for all of your slaves IP addresses into a file in your user directory, `/home/pi`. The file should look similar to this:
+
+```
+192.168.0.29
+192.168.0.30
+192.168.0.31
+192.168.0.32
+```
+
+In your master node run the `master/install.sh` script. This will run an installation script on all of the slaves listed in your slave IP file.
+
+```
+$ sudo bash ./raspberry-pi-cluster-install/master/install.sh
+```
+
+Once the cluster has been installed you can start running your OpenMPI scripts against your slaves.
