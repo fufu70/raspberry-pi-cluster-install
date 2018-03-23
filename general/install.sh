@@ -5,17 +5,15 @@
 #
 # If this is not the case please flash your SD card again.
 
-. /home/pi/raspberry-pi-cluster-install/helpers/init-env.sh '/home/pi'
+. /home/pi/raspberry-pi-cluster-install/general/helpers/init-env.sh '/home/pi'
 
 scripts=(init.sh nfs.sh openmpi.sh ssh.sh)
 n_elements=${#scripts[@]}
 
 for ((i = 0; i < $n_elements; i ++)); do
 	start_script ${scripts[i]}
-	. $SHELL_HOME/raspberry-pi-cluster-install/${scripts[i]}
+	. $SHELL_HOME/raspberry-pi-cluster-install/general/${scripts[i]}
 	end_script ${scripts[i]}
 done
 
-. $SHELL_HOME/raspberry-pi-cluster-install/status.sh
-
-. $SHELL_HOME/raspberry-pi-cluster-install/helpers/destroy-env.sh
+. $SHELL_HOME/raspberry-pi-cluster-install/general/helpers/destroy-env.sh
