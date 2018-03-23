@@ -55,3 +55,17 @@ Once the file has been sent to all of your slaves run your mpi command with all 
 ```
 $ mpiexec -H Mst,Mst,Mst,Mst,Slv,Slv,Slv,Slv call-procs
 ```
+
+## Compiling Scripts
+
+To compile the `call-procs.c` file simply ssh into your node and run the `mmpicc` command
+
+```
+$ mpicc raspberry-pi-cluster-install/scripts/call-procs.c -o call-procs
+```
+
+`euler.c` is a bit different as it needs the math library to operate. To include the library append `-lm` after the `mpicc` command.
+
+```
+$ mpicc -lm raspberry-pi-cluster-install/scripts/euler.c -o euler
+```
