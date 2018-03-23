@@ -14,10 +14,6 @@ gvm install go1.4
 gvm use go1.4
 export GOROOT_BOOTSTRAP=$GOROOT
 
-# Install GoLang for ngrok
-bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm=installer)
-sudo apt-get install -y --force-yes install bison
-
 # Install all of the necessary ngrok tools to allow remote ssh capabilities
 git clone https://github.com/inconschreveable/ngrok.git
 cd ngrok && make
