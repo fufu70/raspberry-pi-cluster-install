@@ -7,7 +7,7 @@
 
 . /home/pi/raspberry-pi-cluster-install/general/helpers/init-env.sh '/home/pi'
 
-scripts=(init.sh nfs.sh openmpi.sh ssh.sh)
+scripts=(init.sh nfs.sh openmpi.sh ssh.sh ngrok.sh)
 n_elements=${#scripts[@]}
 
 for ((i = 0; i < $n_elements; i ++)); do
