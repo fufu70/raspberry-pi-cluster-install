@@ -11,3 +11,5 @@ sudo apt -y --force-yes install vim nmap
 
 #install git for getting necessary packages
 sudo apt -y --force-yes install git 
+
+# Install quick bash scripts
