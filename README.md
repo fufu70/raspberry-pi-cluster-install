@@ -50,4 +50,8 @@ Enter file (with path) to send:
 /path/to/mpi_script
 ```
 
-Once the file has been sent to all of your slaves run your mpi command with all of your hostnames :)
+Once the file has been sent to all of your slaves run your mpi command with all of your hostnames
+
+```
+$ mpiexec -H Mst,Mst,Mst,Mst,Slv,Slv,Slv,Slv call-procs
+```
