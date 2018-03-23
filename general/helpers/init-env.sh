@@ -4,4 +4,4 @@
 SHELL_HOME=$1
 DEFAULT_PASSWORD='raspberry'
 
-. $SHELL_HOME/raspberry-pi-cluster-install/helpers/export-functions.sh
+. $SHELL_HOME/raspberry-pi-cluster-install/general/helpers/export-functions.sh
