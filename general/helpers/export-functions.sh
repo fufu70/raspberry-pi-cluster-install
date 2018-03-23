@@ -6,11 +6,11 @@ bashe() {
 }
 
 start_script() {
-	bashe "$SHELL_HOME/raspberry-pi-cluster-install/helpers/output-block.sh Script $1 started"
+	bashe "$SHELL_HOME/raspberry-pi-cluster-install/general/helpers/output-block.sh Script $1 started"
 }
 
 end_script() {
-	bashe "$SHELL_HOME/raspberry-pi-cluster-install/helpers/output-block.sh Script $1 ended"
+	bashe "$SHELL_HOME/raspberry-pi-cluster-install/general/helpers/output-block.sh Script $1 ended"
 }
 
 export -f bashe
