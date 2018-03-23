@@ -36,6 +36,18 @@ In your master node run the `master/install.sh` script. This will run an install
 
 ```
 $ sudo bash ./raspberry-pi-cluster-install/master/install.sh
+Enter file path to Slave IP's: 
+/path/to/ip_file
 ```
 
-Once the cluster has been installed you can start running your OpenMPI scripts against your slaves.
+Once the cluster has been installed you can provision your slaves with all of the necessary code to run your parallel project. To send your scripts to all of your nodes run the `master/send.sh` script and specify the nodes to send it to and the file to send.
+
+```
+$ sudo bash ./raspberry-pi-cluster-install/master/send.sh
+Enter file path to Slave IP's: 
+/path/to/ip_file
+Enter file (with path) to send: 
+/path/to/mpi_script
+```
+
+Once the file has been sent to all of your slaves run your mpi command with all of your hostnames :)

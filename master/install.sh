@@ -4,7 +4,7 @@ SLAVE_USER='pi'
 SLAVE_PASS='raspberry'
 
 echo "Enter file path to Slave IP's: "
-read -s FILE
+read FILE
 echo
 
 SLAVE_IPS=`cat $FILE`
