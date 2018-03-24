@@ -2,8 +2,6 @@
 
 Contains installation scripts for the master and slave raspberry pi's running Raspbian
 
-To 
-
 ## Equipment
 
 The equipment used for this project is listed below:
