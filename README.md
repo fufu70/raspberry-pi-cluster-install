@@ -2,6 +2,8 @@
 
 Contains installation scripts for the master and slave raspberry pi's running Raspbian
 
+To 
+
 ## Equipment
 
 The equipment used for this project is listed below:
@@ -13,6 +15,8 @@ The equipment used for this project is listed below:
 * [USB Charging Hub](https://www.amazon.com/Tripp-Lite-10-Port-Charging-U280-010/dp/B012EAHX7G/ref=sr_1_37?s=electronics&ie=UTF8&qid=1521722654&sr=1-37&keywords=usb+charging+station+10+port)
 
 All of the SD Cards were pre flashed with [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/). The Raspberry Pi Foundation has a [short guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) on how to install it on your SD Cards
+
+If you would like, I have a version with [ssh enabled](https://drive.google.com/file/d/1e2DbgxBD07tT5hGYUQ5efC1T7nx36uPD/view?usp=sharing) on the card.
 
 ## Master Installation
 
