@@ -12,9 +12,9 @@ The equipment used for this project is listed below:
 * [Network Switch](https://www.amazon.com/NETGEAR-16-Port-Gigabit-Ethernet-Unmanaged/dp/B01AX8XHRQ/ref=sr_1_3?s=electronics&ie=UTF8&qid=1521722574&sr=1-3&keywords=network%2Bswitch%2B12%2Bport&th=1)
 * [USB Charging Hub](https://www.amazon.com/Tripp-Lite-10-Port-Charging-U280-010/dp/B012EAHX7G/ref=sr_1_37?s=electronics&ie=UTF8&qid=1521722654&sr=1-37&keywords=usb+charging+station+10+port)
 
-All of the SD Cards were pre flashed with a version of [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) that was [SSH enabled](). The Raspberry Pi Foundation has a [short guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) on how to install it on your SD Cards. 
+All of the SD Cards were pre flashed with a version of [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) that was [SSH enabled](https://drive.google.com/file/d/1L-akImmOexHYzRMX8wDCMiAqF5VEQAmc/view?usp=sharing). The Raspberry Pi Foundation has a [short guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) on how to install it on your SD Cards. 
 
-Currently the latest version of Raspbian does not have SSH enabled by default, head to the Raspbian SSH Gist or download the img directly [here](https://gist.github.com/fufu70/8b0af230d9f7a06fb440368e648bdb7a) and [here]() respectively.
+Currently the latest version of Raspbian does not have SSH enabled by default, head to the Raspbian SSH Gist or download the img directly [here](https://gist.github.com/fufu70/8b0af230d9f7a06fb440368e648bdb7a) and [here](https://drive.google.com/file/d/1L-akImmOexHYzRMX8wDCMiAqF5VEQAmc/view?usp=sharing) respectively.
 
 ## Master Installation
 
