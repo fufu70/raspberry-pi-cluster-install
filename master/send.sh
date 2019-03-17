@@ -13,7 +13,7 @@ echo
 
 SLAVE_IPS=`cat $FILE`
 for SLAVE_IP in $SLAVE_IPS; do
-	sshpass $SLAVE_PASS sftp -oBatchMode=no -b - "${SLAVE_USER}@${SLAVE_IP}" << !
+	sshpass -p $SLAVE_PASS sftp -oBatchMode=no -b - "${SLAVE_USER}@${SLAVE_IP}" << !
 		put "${FILE_NAME}"
 		bye
 	!
