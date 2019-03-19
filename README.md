@@ -6,9 +6,11 @@ Contains installation scripts for the master and slave raspberry pi's running Ra
 
 The equipment used for this project is listed below:
 * 10 x [Raspberry Pi 3](https://www.amazon.com/Raspberry-Pi-RASPBERRYPI3-MODB-1GB-Model-Motherboard/dp/B01CD5VC92/ref=sr_1_3?s=electronics&ie=UTF8&qid=1521722702&sr=1-3&keywords=raspberry+pi+3&dpID=51Vt9f26ryL&preST=_SX300_QL70_&dpSrc=srch)
-* 10 x [Class 10 SD card](https://www.amazon.com/SanDisk-Class-Flash-Memory-Card/dp/B00N9BECHY/ref=sr_1_7?ie=UTF8&qid=1521722434&sr=8-7&keywords=class+10+sd+card+8GB&dpID=51Mw1XUHxKL&preST=_SX300_QL70_&dpSrc=srch)
-* 10 x [Ethernet Cables](https://www.amazon.com/iMBAPrice-Cat5e-Network-Ethernet-IMBA-CAT5-15BK-10PK/dp/B00I8VK5OO/ref=sr_1_1?s=electronics&ie=UTF8&qid=1521722504&sr=1-1&keywords=ethernet+cables+10+pack)
-* 10 x [USB Cables](https://www.amazon.com/Mopower-Samsung-Blackberry-Motorola-Smartphones/dp/B017SNCCGQ/ref=sr_1_sc_1?s=electronics&ie=UTF8&qid=1521722532&sr=1-1-spell&keywords=usb+microcables+10+pack)
+* 6 x [Raspberry Pi 3 B+](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07BDR5PDW/ref=sr_1_4?hvadid=78546411260016&hvbmt=be&hvdev=c&hvqmt=e&keywords=raspberry+pi+model+b+plus&qid=1552963738&s=gateway&sr=8-4&tag=mh0b-20)
+* 4 x [Raspberry Pi B](https://www.sparkfun.com/products/retired/11546)
+* 20 x [Class 10 SD card](https://www.amazon.com/SanDisk-Class-Flash-Memory-Card/dp/B00N9BECHY/ref=sr_1_7?ie=UTF8&qid=1521722434&sr=8-7&keywords=class+10+sd+card+8GB&dpID=51Mw1XUHxKL&preST=_SX300_QL70_&dpSrc=srch)
+* 20 x [Ethernet Cables](https://www.amazon.com/iMBAPrice-Cat5e-Network-Ethernet-IMBA-CAT5-15BK-10PK/dp/B00I8VK5OO/ref=sr_1_1?s=electronics&ie=UTF8&qid=1521722504&sr=1-1&keywords=ethernet+cables+10+pack)
+* 20 x [USB Cables](https://www.amazon.com/Mopower-Samsung-Blackberry-Motorola-Smartphones/dp/B017SNCCGQ/ref=sr_1_sc_1?s=electronics&ie=UTF8&qid=1521722532&sr=1-1-spell&keywords=usb+microcables+10+pack)
 * [Network Switch](https://www.amazon.com/NETGEAR-16-Port-Gigabit-Ethernet-Unmanaged/dp/B01AX8XHRQ/ref=sr_1_3?s=electronics&ie=UTF8&qid=1521722574&sr=1-3&keywords=network%2Bswitch%2B12%2Bport&th=1)
 * [USB Charging Hub](https://www.amazon.com/Tripp-Lite-10-Port-Charging-U280-010/dp/B012EAHX7G/ref=sr_1_37?s=electronics&ie=UTF8&qid=1521722654&sr=1-37&keywords=usb+charging+station+10+port)
 
