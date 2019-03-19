@@ -15,7 +15,7 @@ SLAVE_IPS=`cat $FILE`
 for SLAVE_IP in $SLAVE_IPS; do
 
 sshpass -p $SLAVE_PASS sftp "${SLAVE_USER}@${SLAVE_IP}" << EOF
-put /home/pi/call-procs
+put $FILE_NAME
 EOF
 
 done
