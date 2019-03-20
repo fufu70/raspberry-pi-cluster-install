@@ -52,12 +52,14 @@ $ ssh pi@SlaveNode mkdir -p .ssh
 $ cat .ssh/id_rsa.pub | ssh pi@SlaveNode 'cat >> .ssh/authorized_keys'
 ```
 
-To confirm that your key has been upload from master try and `ssh` into your slave node from your master node, you should not be prompted for a password. To create hostnames for your slaves for your master add the ip address and hostname to your /etc/hosts file.
+To confirm that your key has been upload from master try and `ssh` into your slave node from your master node, you should not be prompted for a password. To create hostnames for your slaves for your master add the ip address and hostname to your /etc/hosts file. Note, also add your master ip address to your hosts file.
 
 ```
 $ sudo echo "<Slave0IPAddress> Slave0" >> /etc/hosts
 $ sudo echo "<Slave1IPAddress> Slave1" >> /etc/hosts
 $ sudo echo "<Slave2IPAddress> Slave2" >> /etc/hosts
+...
+$ sudo echo "<MasterIPAddress> Mst" >> /etc/hosts
 ```
 
 To ensure that your changes have been applied try to ssh into one of your slaves using the hostname instead of the IP address, you should not be prompted for a password.
