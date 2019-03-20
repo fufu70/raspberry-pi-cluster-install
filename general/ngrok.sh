@@ -6,3 +6,6 @@ unzip ngrok-stable-linux-arm.zip
 
 # Add in personal Authtoken (Will remove one day)
 ./ngrok authtoken S9LTo8e9E2gTBGGTBkLV_5ApQKZeTgASVfRdZvjJBT
+
+# Cleanup ngrok file
+rm -rf ngrok-stable-linux-arm.zip 
