@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # update the machine
-sudo apt -y --force-yes update
+sudo apt-get -y --force-yes update
 
 # Update and install essential 
 sudo apt-get -y --force-yes install build-essential manpages-dev 
