@@ -121,6 +121,14 @@ or
 $ mpicc raspberry-pi-cluster-install/scripts/sine.c -o sine -lm
 ```
 
+### Error 43
+
+When running `mpiexec` you may receive the error below. The [Walrus has a explanation for this](http://doctor-dark.blogspot.com/2018/06/the-wisdom-of-ancients-part-94.html)
+
+```
+[raspberrypi:09112] [[20797,0],0] mca_oob_tcp_recv_handler: invalid message type: 43
+```
+
 ## Thanks to
 
 Carlos R. Morrisons [MPI examples](https://github.com/PacktPublishing/Build-Supercomputers-with-Raspberry-Pi-3)
