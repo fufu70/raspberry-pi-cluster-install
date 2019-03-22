@@ -16,7 +16,7 @@ The equipment used for this project is listed below:
 
 All of the SD Cards were pre flashed with a version of [Raspbian Stretch Lite](https://www.raspberrypi.org/downloads/raspbian/) that was [SSH enabled](https://drive.google.com/file/d/1L-akImmOexHYzRMX8wDCMiAqF5VEQAmc/view?usp=sharing). The Raspberry Pi Foundation has a [short guide](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) on how to install it on your SD Cards. 
 
-Currently the latest version of Raspbian does not have SSH enabled by default, head to the Raspbian SSH Gist or download the img directly [here](https://gist.github.com/fufu70/8b0af230d9f7a06fb440368e648bdb7a) and [here](https://drive.google.com/file/d/1L-akImmOexHYzRMX8wDCMiAqF5VEQAmc/view?usp=sharing) respectively.
+Currently the latest version of Raspbian does not have SSH enabled by default, head to the Raspbian SSH Gist or download the img directly [here](https://gist.github.com/fufu70/8b0af230d9f7a06fb440368e648bdb7a) and [here](https://drive.google.com/file/d/1L-akImmOexHYzRMX8wDCMiAqF5VEQAmc/view?usp=sharing) respectively. (An updated version exists [here](https://drive.google.com/file/d/1u-r8H_r_JZ0Ma8Eo-80Mc4ub0fmqFwoq/view?usp=sharing))
 
 ## Master Installation
 
