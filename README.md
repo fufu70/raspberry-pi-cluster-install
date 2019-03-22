@@ -1,6 +1,6 @@
 # raspberry-pi-cluster-install
 
-Contains installation scripts for the master and slave raspberry pi's running Raspbian
+Contains installation scripts for the master and slave raspberry pi's running Raspbian. For a clean installation view the [clean_install document](https://github.com/fufu70/raspberry-pi-cluster-install/blob/master/CLEAN_INSTALL.md).
 
 ## Equipment
 
