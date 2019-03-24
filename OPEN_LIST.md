@@ -4,7 +4,6 @@ Below is a list of open clusters and their timeouts. The default username is `pi
 
 |Hostname|Timeout|
 |-----|-----|
-|https://2422766a.ngrok.io|Never|
-|https://c23de64e.ngrok.io|Never|
-|https://38cc6733.ngrok.io|Never|
-|https://a28c62be.ngrok.io|Never|
+|Contact Repo Admin|Does not exist|
+
+Contact the repo admin to create a new cluster at cmicklis@stetson.edu
